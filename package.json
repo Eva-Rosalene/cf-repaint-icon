@@ -1,0 +1,17 @@
+{
+  "name": "cf-repaint-icon",
+  "version": "1.0.0",
+  "description": "Change color of cyberforum favicon from blue to red",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "serve dist -l tcp://127.0.0.1:5007"
+  },
+  "keywords": [],
+  "author": "Lera Rosalene <lerarosalene@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.13.3",
+    "mustache": "^4.2.0",
+    "serve": "^12.0.1"
+  }
+}
